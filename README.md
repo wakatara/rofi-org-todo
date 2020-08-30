@@ -16,7 +16,13 @@ It's targeted to keyboard-driven GTD types, and for use on linux desktops i3 and
 
 ## Installation
 
-Take the file `rofi-org-todo.py` and stick it in your $PATH someplace, or do what I do with `rofi` scripts, and  a `./scripts` directory in `~/.config/rofi` and `chmod 700 rofi-org-todo.py` for the file to be executable.
+You will need to install one python library.
+
+```
+pip3 install python-rofi
+```
+
+Then, take the file `rofi-org-todo.py` from the repo and stick it in your $PATH someplace, or do what I do with `rofi` scripts, and  a `./scripts` directory in `~/.config/rofi` and `chmod 700 rofi-org-todo.py` for the file to be executable.
 
 Then simply alter the `inbox_file` line to point to your inbox or other file you want `TODO`s heading to for later processing. As long as it's in directories org-agenda cares about, it'll get sucked up and the `TODO`s into your org-agenda for refiling and action.
 
