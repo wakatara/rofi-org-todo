@@ -20,7 +20,7 @@ Take the file `rofi-org-todo.py` and stick it in your $PATH someplace, or do wha
 
 Then simply alter the `inbox_file` line to point to your inbox or other file you want `TODO`s heading to for later processing. As long as it's in directories org-agenda cares about, it'll get sucked up and the `TODO`s into your org-agenda for refiling and action.
 
-## i3 config
+### i3 config
 
 Add the following to your `~/.config/i3/config`
 
@@ -34,7 +34,7 @@ Make sure to use the full path in the commands.
 
 Use `Super+Shift+r` reload i3 to have it recognize the new keybinding (it'll throw an error if your new keybinding conflicts with anything else and you'll need to change your keys round.).
 
-## POPOS (and other Gnome flavours)
+### POPOS (and other Gnome flavours)
 
 Go into `Settings | Keyboard Shortcuts` from the POP Settings application 
 
