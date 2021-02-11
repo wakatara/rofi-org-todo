@@ -2,7 +2,7 @@
 
 ## What is this?
 
-If you use [Rofi](https://davedavenport.github.io/rofi/) on your desktop and [org-mode](https://orgmode.org/) TODOs in emacs, this is for you.
+If you use [Rofi](https://github.com/davatorium/rofi) on your desktop and [org-mode](https://orgmode.org/) TODOs in emacs, this is for you.
 
 This code allows you to popup a fast window to quickly enter emacs org-mode `TODO`s into your system and having them formatting and appended onto an inbox file anywhere you specify on your system. This allows you to not break flow, throw it into your inbox for processing, and get back to what you were doing with minimal context switching and productivity loss.
 
@@ -12,7 +12,7 @@ It's targeted to keyboard-driven GTD types, and for use on linux desktops i3 and
 
 ## What's a Rofi?
 
-[Rofi](https://davedavenport.github.io/rofi/) is a popup launcher, switcher and all-purpose runner with minimal dependencies. Its basic operation is to display a list of options, or allow text entry and let the user select something (it narrows things automatically as you type). If you've used Alfred on OSX (or Albert) it works very similarly to that but I find it an amazing swiss-army knife of a thing allowing much more flexibility and super easy customizing and scripting (what I've done here took me 30 minutes and filled a gap from what I used in Alfred in OSX before moving back over to linux.). Check it out if you're on Linux. It's the bomb and supports additional features such as an in-interface calc (including currency fx!) and a nifty clipboard and snippet manager.
+[Rofi](https://github.com/davatorium/rofi) is a popup launcher, switcher and all-purpose runner with minimal dependencies. Its basic operation is to display a list of options, or allow text entry and let the user select something (it narrows things automatically as you type). If you've used Alfred on OSX (or Albert) it works very similarly to that but I find it an amazing swiss-army knife of a thing allowing much more flexibility and super easy customizing and scripting (what I've done here took me 30 minutes and filled a gap from what I used in Alfred in OSX before moving back over to linux.). Check it out if you're on Linux. It's the bomb and supports additional features such as an in-interface calc (including currency fx!) and a nifty clipboard and snippet manager.
 
 ## Installation
 
